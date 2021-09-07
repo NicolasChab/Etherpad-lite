@@ -1,0 +1,15 @@
+{
+	"title": "Etherpad",
+	"ip": "0.0.0.0",
+	"port": 9001,
+	"dbtype" : "mariadb",
+	"dbSettings" : {
+		"user": "etherpaduser",
+		"host": "db",
+		"port": 3306,
+		"password": "PASSWORD",
+		"database": "etherpad_lite_db",
+		"charset": "utf8mb4"
+	},
+	"suppressErrorsInPadText": true
+}
